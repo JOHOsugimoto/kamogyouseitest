@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>加茂暁星高校</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-image: url('topimage_2024PC.png');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .hero {
+            background-image: url('topbunner_03_PC.png');
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px #000;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        .slideshow-container {
+            position: relative;
+            max-width: 100%;
+            margin: auto;
+        }
+        .slides {
+            display: none;
+        }
+        .slides img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+        .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        .dot-container {
+            text-align: center;
+            padding: 20px;
+            background: #ddd;
+        }
+        .dot {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+        .active, .dot:hover {
+            background-color: #717171;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .social-links a {
+            color: white;
+            font-size: 24px;
+            text-decoration: none;
+        }
+        .social-links a:hover {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>加茂暁星高校</h1>
+    <p>未来を切り拓く、明るく活気ある学びの場</p>
+</header>
+
+<nav>
+    <a href="https://www.gyosei.ac.jp/about">学校紹介</a>
+    <a href="https://www.gyosei.ac.jp/education">学科情報</a>
+    <a href="https://www.gyosei.ac.jp/life">学校生活</a>
+    <a href="#contact">お問い合わせ</a>
+</nav>
+
+<div class="hero">
+    <h1>ようこそ、加茂暁星高校へ</h1>
+</div>
+
+<div class="content">
+    <div id="about" class="section">
+        <h2>学校紹介</h2>
+        <p>加茂暁星高校は、地域に根ざした教育を通じて、未来を担う人材を育成しています。私たちの学校では、生徒一人ひとりの可能性を最大限に引き出すため、個別指導と充実したカリキュラムを提供しています。</p>
+    </div>
+
+    <div id="academics" class="section">
+        <h2>学科情報</h2>
+        <p>加茂暁星高校は、多彩な学科を提供し、幅広い分野での学びを支援しています。理系、文系、芸術系のどの分野でも、最新の教育設備と優れた教師陣がサポートします。</p>
+    </div>
+
+    <div id="life" class="section">
+        <h2>学校生活</h2>
+        <div class="slideshow-container">
+            <div class="slides fade">
+                <img src="4月_新入生歓迎会.jpg" alt="学校生活の写真1">
+            </div>
+            <div class="slides fade">
+                <img src="4月_宿泊オリエン.jpg" alt="学校生活の写真2">
+            </div>
+            <div class="slides fade">
+                <img src="6月_体育祭.jpg" alt="学校生活の写真3">
+            </div>
+            <div class="slides fade">
+                <img src="8月_戴帽式.jpg" alt="学校生活の写真4">
+            </div>
+            <div class="slides fade">
+                <img src="9月_暁星祭.jpg" alt="学校生活の写真5">
+            </div>
+            <div class="slides fade">
+                <img src="10月_中間テスト.jpg" alt="学校生活の写真6">
+            </div>
+            <div class="slides fade">
+                <img src="event1-768x576.jpg" alt="学校生活の写真7">
+            </div>
+            <div class="slides fade">
+                <img src="event10b-768x512.jpg" alt="学校生活の写真8">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="dot-container">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(4)"></span> 
+            <span class="dot" onclick="currentSlide(5)"></span> 
+            <span class="dot" onclick="currentSlide(6)"></span> 
+            <span class="dot" onclick="currentSlide(7)"></span> 
+            <span class="dot" onclick="currentSlide(8)"></span>  
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="social-links">
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+    </div>
+    <p>このサイトは、加茂暁星高校1学年ガイダンスのために、新潟情報専門学校が試験的に作成した非公式サイトです。</p>
+</footer>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("slides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1} 
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none"; 
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block"; 
+        dots[slideIndex-1].className += " active";
+    }
+</script>
+
+</body>
+</html>
